@@ -6,11 +6,7 @@ import boto3
 from botocore.exceptions import BotoCoreError, ClientError
 
 # ---------- Config ----------
-BUCKET_NAME = os.environ.get("BUCKET_NAME", "").strip()   #Enter actual BUCKET_NAME
-AWS_REGION = os.environ.get("AWS_REGION", os.environ.get("AWS_DEFAULT_REGION", "ap-south-1")).strip()  # default to Mumbai
-MAX_EXPIRY_SECONDS = int(os.environ.get("MAX_EXPIRY_SECONDS", "86400"))  # max 24 hours
-DEFAULT_EXPIRY_SECONDS = int(os.environ.get("DEFAULT_EXPIRY_SECONDS", "3600"))  # default 1 hour
-MAX_CONTENT_LENGTH = int(os.environ.get("MAX_CONTENT_LENGTH", str(50 * 1024 * 1024)))  # 50 MB default
+
 
 ALLOWED_EXTENSIONS = set([
     "txt","pdf","png","jpg","jpeg","gif","doc","docx","ppt","pptx","xls","xlsx","csv","zip","rar","7z","mp4","mp3","wav"
